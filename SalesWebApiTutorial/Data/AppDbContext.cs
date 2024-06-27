@@ -15,5 +15,11 @@ namespace SalesWebApiTutorial.Data
         }
 
         public DbSet<Customer> Customers { get; set; } = default!; //change the name of the table to plural
+        public DbSet<Order> Orders { get; set; } = default!;
+        public DbSet<Employee> Employees { get; set; } = default!;
+        public DbSet<Item> Items { get; set; } = default!;
+        public DbSet<Orderline> Orderlines { get; set; } = default!;
+
+
     }
 }
